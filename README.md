@@ -27,14 +27,26 @@ To begin, jump to the [Installation Guide](#installation-guide) section below fo
     git clone https://github.com/graphdeco-inria/gaussian-splatting --recursive
     ```
 
+# Create a Virtual Environment:
+To create a new virtual environment, open your terminal/command prompt and navigate to the directory where you want to create it. Then, run the following command:
+
+```sh
+python -m venv specify_name
+
+## activate the Virtual environment:
+specify_name\Scripts\activate
+```
+Replace specify_name with the desired name for your virtual environment.
+
+
 2. **Install Dependencies**
 
     - **CUDA Toolkit v11.8:** [Download CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive)
     - **Python 3.10.9 or later:** [Python Downloads](https://www.python.org/downloads/)
 
     - **Visual Studio 2019 or newer** You can download and install it [here](https://visualstudio.microsoft.com/vs/older-downloads/). Make sure you add Desktop Development with C++ when installing
-    - **COLMAP** - download [here](https://github.com/colmap/colmap/releases)
-    - **FFMPEG** - download [here](https://ffmpeg.org/download.html)
+    - **COLMAP** - download [here](https://github.com/colmap/colmap/releases) -- add the lib folder to your PATH environment variable
+    - **FFMPEG** - download [here](https://ffmpeg.org/download.html) -- add the lib folder to your PATH environment variable
     - **ImageMagick** - download [here](https://imagemagick.org/script/download.php) - optional
 
 
